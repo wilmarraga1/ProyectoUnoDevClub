@@ -167,6 +167,14 @@ select:focus, input:focus, button:focus{
     }
     body{
     background-color: #ddebdc;
+    
     }
+    main{
+    width: 340px;
+    background: #ffff;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;/*aplica alos 4 lados*/
+}
     
 }
