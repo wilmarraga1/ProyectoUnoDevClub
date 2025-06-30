@@ -162,5 +162,11 @@ select:focus, input:focus, button:focus{
     .moneda input{
         width: 200px;
     }
+    .logo{
+    display: none;
+    }
+    body{
+    background-color: #ddebdc;
+    }
     
 }
