@@ -149,7 +149,7 @@ select:focus, input:focus, button:focus{
     outline: 0;
 }
 .container1{
- width: 375px;
+    width: 375px;
     border-radius: 20px;
     margin: 0 auto;
     margin-top: 10px;
@@ -163,18 +163,32 @@ select:focus, input:focus, button:focus{
         width: 200px;
     }
     .logo{
-    display: none;
+        display: none;
     }
     body{
-    background-color: #ddebdc;
-    
+        background-color: #ddebdc;
+        
+    }
+    .container1{
+        width: 325px;
+        display: flexbox;
+        padding: 10px 20px;
+        margin: 1 auto;
+    }
+    .container1 h1{
+        font-size: 1.8em; 
+        text-align: center;
+    }
+     .container1 p{
+        font-size: 1.1em;
+        text-align: center; 
     }
     main{
-    width: 330px;
-    background: #ffff;
-    border-radius: 20px;
-    margin: 0 auto;
-    /*aplica alos 4 lados*/
+        width: 325px;
+        background: #ffff;
+        border-radius: 20px;
+        margin: 0 auto;/*aplica alos 4 lados*/
+    
 }
     
 }
